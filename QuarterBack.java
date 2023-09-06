@@ -11,10 +11,10 @@ public class QuarterBack extends Player {
         int upperbound = 2
         int random = rand.nextInt(upperbound);
         if (random = 1) {
-            offenseBehavior = new runBehavior;
+            offenseBehavior = new RunBehavior();
         }
         else if (random = 2) {
-            offenseBehavior = new passBehavior;
+            offenseBehavior = new PassBehavior();
         }
     }
 
