@@ -7,6 +7,9 @@ public class QuarterBack extends Player {
     }
 
     public void setOffenseBehavior() {
+
+// Determines what action will be taken when the quarterback runs a play on offense. 50/50 chance to run or pass.
+
         random Rand = new Random();
         int upperbound = 2
         int random = rand.nextInt(upperbound);
@@ -19,6 +22,9 @@ public class QuarterBack extends Player {
     }
 
     public void setDefenseBehavior() {
+
+// Quarterback does not play defense, so his defense behavior is set to null.
+
         defenseBehavior = null;
     }
 }

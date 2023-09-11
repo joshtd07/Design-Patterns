@@ -1,6 +1,8 @@
 package strategy;
 
 public abstract class Player {
+    // Creates the Strings that hold a player's first and last name, as well as a boolean to determine if they are on offense or not
+
     private String firstName;
     private String lastName;
 
@@ -10,6 +12,9 @@ public abstract class Player {
     protected OffenseBehavior offenseBehavior;
 
     public Player(String firstName, string lastName, boolean offense) {
+
+// Creates a player using the given names and position
+
         this.firstName = firstName;
         this.lastName = lastName;
         this.offense = offense;
