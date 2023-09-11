@@ -1,0 +1,13 @@
+package observer;
+
+public class RoundScoreDisplay implements Observer{
+    Subject golfer;
+
+    public HoleScoreDisplay(Subject golfer){
+        
+    }
+
+    public void update(int strokes, int par){
+        
+    }
+}
