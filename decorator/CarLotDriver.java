@@ -22,7 +22,7 @@ public class CarLotDriver {
 	private String getColor() {
 		System.out.print(
 				"What color would you like to paint your Vehicle (Enter either Red, Green, Purple, Blue, Yellow, Cyan, or None: ");
-		return scanner.nextLine().toLowerCase();
+		return scanner.nextLine().toLowerCase(); 
 	}
 
 	public static void main(String[] args) {
