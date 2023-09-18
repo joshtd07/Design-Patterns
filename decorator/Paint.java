@@ -1,6 +1,6 @@
 package decorator;
 
-public class Paint extends VehicleDecorator {
+public class Paint extends Vehicle {
     private Vehicle vehicle;
 
     public String colorCode = null;
@@ -13,6 +13,7 @@ public class Paint extends VehicleDecorator {
 
         if (color == "Red") {
             colorCode = "\u001B[0m";
+            
 
         } else if (color == "Red") {
             colorCode = "\u001B[31m";
@@ -33,5 +34,9 @@ public class Paint extends VehicleDecorator {
             colorCode = "\u001B[36m";
 
         }
+
+        vehicle.ColorC = colorCode;
+
+
     }
 }
