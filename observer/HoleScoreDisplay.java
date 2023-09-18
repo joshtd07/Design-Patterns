@@ -6,4 +6,8 @@ public class HoleScoreDisplay implements Observer{
     public HoleScoreDisplay(Subject golfer){
         
     }
+
+    public void update(int strokes, int par){
+        
+    }
 }
