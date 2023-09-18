@@ -6,7 +6,7 @@ public class Smile extends VehicleDecorator {
     private Vehicle vehicle;
 
     public Smile(Vehicle vehicle) {
-        super(FileReader.getLines(fileName:C:/Users/Josh/Downloads/.rimstxt));
+        super(FileReader.getLines(fileName:C:/Users/Josh/Downloads/smile.txt));
 
         this.vehicle = vehicle;
         ArrayList<String> copy = new ArrayList<String>();
