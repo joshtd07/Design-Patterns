@@ -1,6 +1,6 @@
 package decorator;
 
-import Java.util.ArrayList;
+import java.util.ArrayList;
 
 public abstract class Vehicle {
     protected ArrayList<String> lines = new ArrayList<>();
