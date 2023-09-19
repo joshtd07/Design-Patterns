@@ -22,7 +22,7 @@ public abstract class VehicleDecorator extends Vehicle {
                 String Item = String.valueOf(item);
                 splitLine[1] = Item;
                 splitLine[2] = vLine.substring(i+1, decLine.length()-1);
-                
+                System.out.println(splitLine[0] + splitLine[1] + splitLine[2]);
             }
 
         }
