@@ -88,4 +88,9 @@ public class Document {
     /**
      * Gets an iterator for traversing the redo stack.
      *
-     * @return A StackIterator for the
+     * @return A StackIterator for the redo stack.
+     */
+    public StackIterator getRedoIterator() {
+        return new StackIterator(redoStack);
+    }
+}
